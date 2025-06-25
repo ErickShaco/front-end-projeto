@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <div className='w-full z-50 fixed bg-[#B8C3D7]/35 backdrop-blur-lg shadow-lg shadow-black/20'>
         <nav className=' text-white'>
@@ -18,5 +18,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar;
 

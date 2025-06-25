@@ -2,7 +2,6 @@
 
 import Carrossel from "@/components/carrossel/page";
 import Navbar from "@/components/navbar/page";
-import Fundo from "@/components/fundo1/page";
 import Footer from "@/components/footer/page";
 import Lancamentos from "@/components/lancamentos/page";
 import Novidades from "@/components/novidades/page";
