@@ -91,14 +91,14 @@ function Carrossel() {
                   </div>
                 </div>
               </div>
-              <div className="text-1xl absolute left-20 inset-145 flex justify-start mt-5">
+              <div className="text-1xl absolute left-25 inset-145 flex justify-start mt-5">
                 <div>
                   <p className="flex items-center justify-center cursor-pointer font-bold text-white bg-[#191d29] rounded-md p-2 w-30 h-11.5 hover:bg-[#9aa5bb] hover:text-black shadow-2xl transition-all duration-200">
                     Começar
                   </p>
                 </div>
               </div>
-              <div className="text-1xl absolute left-53 inset-145 flex justify-start mt-5">
+              <div className="text-1xl absolute left-56 inset-145 flex justify-start mt-5">
                 <div className="flex justify-center items-center  cursor-pointer font-bold text-white bg-[#191d29] rounded-md p-2 w-15 h-11.5 hover:bg-[#9aa5bb] hover:text-black shadow-2xl shadow-black transition-all hover:shadow-2xl duration-200 ">
                   <FaRegStar />
                 </div>

@@ -3,6 +3,9 @@
 import Carrossel from "@/components/carrossel/page";
 import Navbar from "@/components/navbar/page";
 import Fundo from "@/components/fundo1/page";
+import Footer from "@/components/footer/page";
+import Lancamentos from "@/components/lancamentos/page";
+import Novidades from "@/components/novidades/page";
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
         <Navbar />
 
         <Carrossel />
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center bg-slate-900 items-center">
           <div>
             <img src="" alt="" />
           </div>
@@ -19,7 +22,9 @@ export default function Home() {
             氷 Animes
           </h1>
         </div>
-        <Fundo />
+        <Novidades />
+        <Lancamentos />
+        <Footer />
       </main>
     </div>
   );
